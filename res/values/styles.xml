@@ -599,4 +599,9 @@ background and text color. See also android:style/Widget.Holo.TextView.ListSepar
         <item name="android:paddingStart">@dimen/drawer_side_padding</item>
         <item name="android:paddingEnd">@dimen/drawer_label_header_end_padding</item>
     </style>
+
+    <style name="checkBoxStyle" parent="Base.Theme.AppCompat">
+        <item name="colorAccent">@*android:color/accent_device_default_light</item> <!-- Cecked color -->
+        <item name="android:textColorSecondary">@color/secondary_text_color</item> <!-- Unchecked color -->
+    </style>
 </resources>
