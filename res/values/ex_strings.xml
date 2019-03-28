@@ -13,4 +13,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="call_via_template">Call via <xliff:g id="account">%1$s</xliff:g></string>
+
+    <!-- Groups -->
+    <string name="group_friends">Friends</string>
+    <string name="group_family">Family</string>
+    <string name="group_coworkers">Coworkers</string>
 </resources>

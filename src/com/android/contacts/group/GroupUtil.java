@@ -41,6 +41,8 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+import com.android.contacts.R;
+
 /**
  * Group utility methods.
  */
@@ -64,7 +66,7 @@ public final class GroupUtil {
 
     // System IDs of FFC groups in Google accounts
     private static final Set<String> FFC_GROUPS =
-            new HashSet(Arrays.asList("Friends", "Family", "Coworkers"));
+            new HashSet(Arrays.asList(R.string.group_friends, R.string.group_family, R.string.group_coworkers));
 
     private GroupUtil() {
     }
